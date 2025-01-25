@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+  cursor: pointer; /* Aparece o ícone de mão ao passar o mouse */
+}
+
+
+* {
+  user-select: none; /* Desabilita a seleção de texto */
+  overflow: hidden; /* Remove a barra de rolagem e bloqueia o scroll */
+
+
+
+}
+
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-screen-site,
+.main-screen-site * {
+  box-sizing: border-box;
+}
+.main-screen-site {
+  background: #090909;
+  height: 941px;
+  position: relative;
+  overflow: hidden;
+}
+.background-image {
+  width: 1857px;
+  height: 1857px;
+  position: absolute;
+  left: 0.19px;
+  top: -412px;
+  object-fit: cover;
+}
+.main-text {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 66.78807830810547px;
+  line-height: 114.05%;
+  font-weight: 400;
+  position: absolute;
+  left: 424.92px;
+  top: 358.5px;
+}
+.main-text-span {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 66.78807830810547px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.main-text-span2 {
+  color: #f83f3f;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 66.78807830810547px;
+  line-height: 114.05%;
+  font-weight: 600;
+}
+.main-text-span3 {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 66.78807830810547px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.comming-soon {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 28.303123474121094px;
+  line-height: 114.05%;
+  font-weight: 400;
+  position: absolute;
+  left: 1257.54px;
+  top: 62.31px;
+  background: linear-gradient(90deg, #ffffff, #737373, #737373, #ffffff); /* Gradiente colorido */
+  background-size: 200% 100%; /* Faz o gradiente se estender por mais da área do texto */
+  color: transparent; /* Torna o texto transparente para revelar o fundo */
+  background-clip: text; /* Faz o gradiente aparecer no texto */
+  animation: gradient-animation 4s ease infinite; /* Animação mais suave */
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 200% 0;
+  }
+  50% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.my-works {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 34.42350769042969px;
+  line-height: 113.05%;
+  font-weight: 400;
+  position: absolute;
+  left: 847.19px;
+  top: 642.7px;
+}
+
+.logo-store {
+  width: 217.47px;
+  height: 217.47px;
+  position: absolute;
+  left: 819.76px;
+  top: 648.7px;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Suaviza o efeito de transformação */
+}
+
+.logo-store:hover {
+  transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
+
+.ordem-2023 {
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+  position: absolute;
+  left: 1285.47px;
+  top: 278px;
+}
+.ordem-2023-span {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.ordem-2023-span2 {
+  color: #f83f3f;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.ordem-2024 {
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+  position: absolute;
+  left: 1285.47px;
+  top: 424.5px;
+}
+.ordem-2024-span {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.ordem-2024-span2 {
+  color: #f83f3f;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.ordem-2025 {
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+  position: absolute;
+  left: 1285.47px;
+  top: 571px;
+}
+.ordem-2025-span {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.ordem-2025-span2 {
+  color: #f83f3f;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+.ordem-2025-span3 {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+
+/* Definir a animação de surgimento */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplicar a animação nos elementos */
+.ordem-2023, .ordem-2024, .ordem-2025 {
+  opacity: 0;  /* Garantir que os elementos começam invisíveis */
+  animation: fadeIn 2s ease-in forwards;
+}
+
+/* Definir intervalos para cada elemento */
+.ordem-2023 {
+  animation-delay: 0s; /* Primeiro item aparece sem atraso */
+}
+
+.ordem-2024 {
+  animation-delay: 10s; /* Segundo item aparece após 20 segundos */
+}
+
+.ordem-2025 {
+  animation-delay: 15s; /* Terceiro item aparece após 40 segundos */
+}
+
+/* Estilos para os textos */
+.ordem-2023-span, .ordem-2024-span, .ordem-2025-span {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+
+.ordem-2023-span2, .ordem-2024-span2, .ordem-2025-span2 {
+  color: #f83f3f;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+
+.ordem-2025-span3 {
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 31.07544708251953px;
+  line-height: 114.05%;
+  font-weight: 500;
+}
+
+
+
+.danidev-text {
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 35.102272033691406px;
+  line-height: 114.05%;
+  font-weight: 400;
+  position: absolute;
+  left: 424.92px;
+  top: 57.31px;
+}
+.danidev-text-span {
+  color: #ffffff;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 35.102272033691406px;
+  line-height: 114.05%;
+  font-weight: 400;
+}
+.danidev-text-span2 {
+  color: #f83f3f;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 35.102272033691406px;
+  line-height: 114.05%;
+  font-weight: 400;
+}
